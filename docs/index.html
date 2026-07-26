@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#050507">
+    <meta
+        name="description"
+        content="Installation et modes disponibles pour le userscript Lostgamer Visual Effects."
+    >
+    <meta property="og:title" content="Lostgamer Visual Effects">
+    <meta
+        property="og:description"
+        content="Installation and available modes for the Lostgamer Visual Effects userscript."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zigaroula.github.io/lostgamer-scripts/">
+    <title>Lostgamer Visual Effects — Ziga</title>
+    <link rel="icon" href="ziga-logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <a class="brand" href="https://github.com/zigaroula/lostgamer-scripts">
+                <img src="ziga-logo.png" alt="">
+                <span>Ziga / lostgamer-scripts</span>
+            </a>
+            <button class="language-toggle" type="button" aria-label="Switch to English">EN</button>
+        </header>
+
+        <main>
+            <div class="main-column">
+                <section class="intro">
+                    <p class="label" data-i18n="projectLabel">Userscript non officiel</p>
+                    <h1>Lostgamer<br><span>Visual Effects</span></h1>
+                    <p class="summary" data-i18n="summary">
+                        Quelques effets visuels pour modifier uniquement la vue panoramique de Lostgamer.
+                    </p>
+                    <div class="links">
+                        <a
+                            class="primary-link"
+                            href="https://github.com/zigaroula/lostgamer-scripts/raw/refs/heads/master/lostgamer-visual-effects.user.js"
+                            data-i18n="installLink"
+                        >Installer le script</a>
+                        <a
+                            class="secondary-link"
+                            href="https://github.com/zigaroula/lostgamer-scripts"
+                            data-i18n="sourceLink"
+                        >Voir le code</a>
+                    </div>
+                </section>
+
+                <section class="installation" aria-labelledby="installation-title">
+                    <h2 id="installation-title" data-i18n="installationTitle">Installation</h2>
+                    <ol>
+                        <li data-i18n="stepOne">
+                            Installez l’extension Tampermonkey dans votre navigateur.
+                        </li>
+                        <li data-i18n="stepTwo">
+                            Sur Chrome 138+, ouvrez les détails de Tampermonkey et activez
+                            « Autoriser les scripts utilisateur ».
+                        </li>
+                        <li data-i18n="stepThree">
+                            Cliquez sur « Installer le script », puis confirmez dans Tampermonkey.
+                        </li>
+                    </ol>
+                    <p class="browser-note" data-i18n="browserNote">
+                        Ancien Chrome/Chromium : activez le Mode développeur dans
+                        chrome://extensions. Sur Edge : edge://extensions. Firefox n’utilise
+                        pas le même interrupteur.
+                    </p>
+                </section>
+            </div>
+
+            <section class="modes" aria-labelledby="modes-title">
+                <div class="modes-heading">
+                    <h2 id="modes-title" data-i18n="modesTitle">Modes disponibles</h2>
+                    <span data-i18n="shortcuts">Raccourcis</span>
+                </div>
+                <ul>
+                    <li><span data-i18n="normal">Normal</span><kbd>Alt+0</kbd></li>
+                    <li><span data-i18n="grayscale">Noir et blanc</span><kbd>Alt+1</kbd></li>
+                    <li><span data-i18n="pixelLight">Pixelisé léger</span><kbd>Alt+2</kbd></li>
+                    <li><span data-i18n="pixelExtreme">Pixelisé extrême</span><kbd>Alt+3</kbd></li>
+                    <li><span data-i18n="blur">Flou</span><kbd>Alt+4</kbd></li>
+                    <li><span data-i18n="invert">Couleurs inversées</span><kbd>Alt+5</kbd></li>
+                    <li><span data-i18n="oneSecond">Visible 1 seconde</span><kbd>Alt+6</kbd></li>
+                    <li><span data-i18n="edges">Contours uniquement</span><kbd>Alt+7</kbd></li>
+                </ul>
+                <p class="panel-shortcut" data-i18n="panelShortcut">
+                    Alt+M réduit ou affiche le panneau.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <span data-i18n="footer">Script créé par Ziga.</span>
+            <a href="https://github.com/zigaroula/lostgamer-scripts">GitHub</a>
+        </footer>
+    </div>
+</body>
+</html>

@@ -6,6 +6,8 @@ inversion des couleurs, affichage pendant une seconde et détection des contours
 La petite interface s’affiche automatiquement en français si le navigateur est
 en français, et en anglais dans les autres cas.
 
+🌐 **[Voir la page de présentation](https://zigaroula.github.io/lostgamer-scripts/)**
+
 ## Installation
 
 1. Installez l’extension [Tampermonkey](https://www.tampermonkey.net/) dans votre navigateur.
